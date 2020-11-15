@@ -37,11 +37,11 @@ tw.menuBar.advanced:
 tw.menuBar.hqpOff:
   defaultMessage: Turn off High Quality Pen
   description: Menu bar item for turning off high quality pen
-  message: null
+  message: ペンをハイクオリティにしない
 tw.menuBar.hqpOn:
   defaultMessage: Turn on High Quality Pen
   description: Menu bar item for turning on high quality pen
-  message: null
+  message: ペンをハイクオリティにする
 tw.menuBar.compilerOff:
   defaultMessage: Disable Compiler
   description: Menu bar item for disabling the compiler
@@ -53,11 +53,11 @@ tw.menuBar.compilerOn:
 tw.menuBar.warpTimerOff:
   defaultMessage: Turn off Warp Timer (Stuck Checking)
   description: Menu bar item for turning off Warp Timer
-  message: null
+  message: ラップタイマーを解除する
 tw.menuBar.warpTimerOn:
   defaultMessage: Turn on Warp Timer (Stuck Checking)
   description: Menu bar item for turning on Warp Timer
-  message: null
+  message: ラップタイマーにする
 tw.menuBar.help:
   defaultMessage: Help
   description: Text for TurboWarp Help dropdown menu
@@ -125,15 +125,15 @@ tw.gui.defaultProjectTitle:
 tw.home.description:
   defaultMessage: TurboWarp is a Scratch mod that compiles projects to JavaScript to make them run really fast. Try it out by inputting a project ID or URL above or choosing a featured project below.
   description: Description of TurboWarp
-  message: null
+  message: TurboWrapは、プロジェクトをJavaScriptにコンパイルして高速に動作するようにScratchを改造したものです。上の入力バーにプロジェクトIDやURLを入力するか、下のプロジェクトを選択して試してみてください。
 tw.footer.disclaimer:
   defaultMessage: Projects from the Scratch website are licensed under the Creative Commons Attribution-ShareAlike 2.0 license. TurboWarp is not affiliated with Scratch, the Scratch Team, or the Scratch Foundation.
   description: Disclaimer that TurboWarp is not connected to Scratch and licensing information
-  message: null
+  message: Scratchウェブサイトのプロジェクトは、クリエイティブ・コモンズ表示-継承2.0ライセンスです。なお、TurboWarpはScratch、Scratchチーム、Scratch Foundationとは提携していません。
 tw.footer.host:
   defaultMessage: Hosting for TurboWarp is provided by {fosshost}.
   description: Host credit
-  message: null
+  message: TurboWrapはホスト名「 {fosshost} 」のサーバーが提供しています。
 tw.footer.host.fosshost:
   defaultMessage: fosshost.org
   description: Link to fosshost.org
