@@ -29,7 +29,7 @@ tw.menuBar.cloudOn:
 tw.menuBar.cloudUnavailable:
   defaultMessage: Cloud Variables are not Available
   description: Menu bar item for when cloud variables are not available
-  message: クラウド変数は使うことができません
+  message: クラウド変数を無効にする
 tw.menuBar.advanced:
   defaultMessage: Advanced
   description: Text for advanced settings dropdown menu
@@ -53,11 +53,11 @@ tw.menuBar.compilerOn:
 tw.menuBar.warpTimerOff:
   defaultMessage: Turn off Warp Timer (Stuck Checking)
   description: Menu bar item for turning off Warp Timer
-  message: ラップタイマーを解除する
+  message: ワープタイマーを無効にする
 tw.menuBar.warpTimerOn:
   defaultMessage: Turn on Warp Timer (Stuck Checking)
   description: Menu bar item for turning on Warp Timer
-  message: ラップタイマーにする
+  message: ワープタイマーを有効にする
 tw.menuBar.help:
   defaultMessage: Help
   description: Text for TurboWarp Help dropdown menu
@@ -89,7 +89,7 @@ tw.giveFeedback:
 tw.unsavedChanges:
   defaultMessage: Unsaved Changes
   description: Title bar link indicating unsaved changes
-  message: null
+  message: コンピューターに保存する
 tw.menuBar.seeInside:
   defaultMessage: See Inside
   description: Label for see inside button
@@ -97,7 +97,7 @@ tw.menuBar.seeInside:
 tw.home.instructions:
   defaultMessage: Instructions
   description: Header for instructions section of description
-  message: null
+  message: 説明
 tw.home.credit:
   defaultMessage: Notes and Credits
   description: Header for notes and credits section of description
@@ -117,7 +117,7 @@ tw.framerateIndicator:
 tw.alerts.warning:
   defaultMessage: Turn on Warp Timer or disable compiler (in Advanced menu) while creating projects to avoid potential data loss. Also note that scripts may need to be restarted for changes to apply.
   description: Message warning user of potential data loss.
-  message: null
+  message: プロジェクトの作成中にワープタイマーを有効にするか、コンパイラを無効にしてください。また、変更を適用するにはスクリプトの再起動が必要な場合があることにも注意してください。
 tw.gui.defaultProjectTitle:
   defaultMessage: Project
   description: Default title for project
@@ -125,7 +125,7 @@ tw.gui.defaultProjectTitle:
 tw.home.description:
   defaultMessage: TurboWarp is a Scratch mod that compiles projects to JavaScript to make them run really fast. Try it out by inputting a project ID or URL above or choosing a featured project below.
   description: Description of TurboWarp
-  message: TurboWrapは、プロジェクトをJavaScriptにコンパイルして高速に動作するようにScratchを改造したものです。上の入力バーにプロジェクトIDやURLを入力するか、下のプロジェクトを選択して試してみてください。
+  message: TurboWrapは、プロジェクトをJavaScriptにコンパイルして高速に動作するようにScratchを改造したものです。上の入力バーにプロジェクトIDやURLを入力するか、下のプロジェクトを選択してみてください。
 tw.footer.disclaimer:
   defaultMessage: Projects from the Scratch website are licensed under the Creative Commons Attribution-ShareAlike 2.0 license. TurboWarp is not affiliated with Scratch, the Scratch Team, or the Scratch Foundation.
   description: Disclaimer that TurboWarp is not connected to Scratch and licensing information
@@ -133,7 +133,7 @@ tw.footer.disclaimer:
 tw.footer.host:
   defaultMessage: Hosting for TurboWarp is provided by {fosshost}.
   description: Host credit
-  message: TurboWrapはホスト名「 {fosshost} 」のサーバーが提供しています。
+  message: TurboWrapは {fosshost} のサーバーが提供しています。
 tw.footer.host.fosshost:
   defaultMessage: fosshost.org
   description: Link to fosshost.org
