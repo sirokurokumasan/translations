@@ -29,7 +29,7 @@ tw.menuBar.cloudOn:
 tw.menuBar.cloudUnavailable:
   defaultMessage: Cloud Variables are not Available
   description: Menu bar item for when cloud variables are not available
-  message: クラウド変数を無効にする
+  message: クラウド変数は使えません
 tw.menuBar.advanced:
   defaultMessage: Advanced
   description: Text for advanced settings dropdown menu
@@ -37,11 +37,11 @@ tw.menuBar.advanced:
 tw.menuBar.hqpOff:
   defaultMessage: Turn off High Quality Pen
   description: Menu bar item for turning off high quality pen
-  message: ペンをハイクオリティにしない
+  message: 通常のペンにする
 tw.menuBar.hqpOn:
   defaultMessage: Turn on High Quality Pen
   description: Menu bar item for turning on high quality pen
-  message: ペンをハイクオリティにする
+  message: きれいなペンにする
 tw.menuBar.compilerOff:
   defaultMessage: Disable Compiler
   description: Menu bar item for disabling the compiler
@@ -117,7 +117,7 @@ tw.framerateIndicator:
 tw.alerts.warning:
   defaultMessage: Turn on Warp Timer or disable compiler (in Advanced menu) while creating projects to avoid potential data loss. Also note that scripts may need to be restarted for changes to apply.
   description: Message warning user of potential data loss.
-  message: プロジェクトの作成中にワープタイマーを有効にするか、コンパイラを無効にしてください。また、変更を適用するにはスクリプトの再起動が必要な場合があることにも注意してください。
+  message: プロジェクトの作成中にワープタイマーを有効にするか、コンパイラを無効にしてください。また、変更を適用するにはスクリプトの再起動が必要なことがあります。
 tw.gui.defaultProjectTitle:
   defaultMessage: Project
   description: Default title for project
@@ -125,7 +125,7 @@ tw.gui.defaultProjectTitle:
 tw.home.description:
   defaultMessage: TurboWarp is a Scratch mod that compiles projects to JavaScript to make them run really fast. Try it out by inputting a project ID or URL above or choosing a featured project below.
   description: Description of TurboWarp
-  message: TurboWrapは、プロジェクトをJavaScriptにコンパイルして高速に動作するようにScratchを改造したものです。上の入力バーにプロジェクトIDやURLを入力するか、下のプロジェクトを選択してみてください。
+  message: TurboWrapは、scratchのプロジェクトをJavaScriptにコンパイルして速く動くように改造したものです。上の入力バーにプロジェクトIDやURLを入力するか、下のプロジェクトを選択してみてください。
 tw.footer.disclaimer:
   defaultMessage: Projects from the Scratch website are licensed under the Creative Commons Attribution-ShareAlike 2.0 license. TurboWarp is not affiliated with Scratch, the Scratch Team, or the Scratch Foundation.
   description: Disclaimer that TurboWarp is not connected to Scratch and licensing information
